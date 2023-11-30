@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hand-icon {
+            display: none;
+        }
+        .hand-icon img {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="myDiv" class="hand-icon" onmouseover="showHandIcon()" onmouseout="hideHandIcon()">
+        鼠标移到这里
+    </div>
+    <script>
+        function showHandIcon() {
+            document.getElementById('myDiv').style.cursor = 'pointer';
+            document.getElementById('myDiv').firstElementChild.style.display = 'block';
+        }
+
+        function hideHandIcon() {
+            document.getElementById('myDiv').style.cursor = 'default';
+            document.getElementById('myDiv').firstElementChild.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
