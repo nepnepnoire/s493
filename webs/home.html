@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>目录</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div{
+            user-select: none;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(../images/bg1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .containerl {
+            display: inline-block;
+            margin-right: 100px;
+            border-radius: 5px;
+            width: 40%;
+            margin-top: 20px;
+        }
+        .container {
+            display: inline-block;
+            width: 40%;
+        }
+        .tit{
+            font-size: xx-large;
+            font-weight: bold;
+            color: #eee;
+            width: 300px;
+            margin: 0 auto;
+            z-index: 2;
+        }
+        img {
+            border-radius: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        img:hover {
+        border: 5px solid rgba(0, 0, 0, 0);
+        }  
+        .nav {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            width: 100%;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgba(36, 37, 38, 0.6);
+            user-select: none;
+            border-radius: 10px;
+            justify-content: center;
+        }
+        .nav li {
+            float: left;
+        }
+
+        .nav li a{
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 20px 26px;
+            text-decoration: none;
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .nav li a:hover{
+            background-color:#a3b8cc;;
+        }
+        .PS{
+            position: absolute;
+            bottom: -10px;
+            left:300px;
+            color: #fff;
+            font-size:x-large;
+        }
+        .Btd{
+            position: absolute;
+            top: 95%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .Btd1{
+            position: absolute;
+            text-align: center;
+            top: 47%;
+            left: 50%;
+            width: 227px;
+            transform: translate(-50%, -50%);
+            font-size: x-large;
+            font-weight: 700;
+            color: #9cf;
+            background-color:rgba(0,51,102,.9);
+            user-select: none;
+        }
+        .Btd1:hover{
+            color: #fff;
+            background-color:rgba(0, 86, 172, 0.9);;
+            cursor:pointer;
+        }
+        a{
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="../index.html">标题首页</a></li>
+        <li><a href="./terran.html">人类</a></li>
+        <li><a href="./zerg.html">虫族</a></li>
+        <li><a href="./protoss.html">星灵</a></li>
+        <li><a href="./mixture.html">混合体</a></li>
+    </ul>
+    <div class="tit">星际争霸种族介绍 (点击图片了解)</div>
+<div>
+        <a class="containerl" href="./terran.html">
+        <img src="../images/terran.jpg" alt="" width="650px" height="350px">
+        </a>
+        <a class="container" href="./zerg.html"> 
+        <img src="../images/zerg.jpg" alt="" width="650px" height="350px">
+        </a>
+        <a class="containerl" href="./protoss.html">
+        <img src="../images/protoss.jpg" alt="" width="650px" height="350px">
+        </a>
+        <a class="container" href="./mixture.html">
+        <img src="../images/mixture.png" alt="" width="650px" height="350px">
+        </a>
+    </div>
+</div>
+    <div class="PS">PS:老师好，如果“种族介绍”的文字位置偏左，请调小所有页面的缩放比，在下方则调大所有页面的缩放比</div>
+    <div class="Btd">
+        <img src="../images/return.png" alt=""> 
+        <a href="../index.html" class="Btd1">返回标题首页</a>
+    </div>
+</body>
+</html>

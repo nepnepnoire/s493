@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人类</title>
+    <style>
+        body{
+            background-image: url(../images/bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .container {
+            display: flex;
+            flex: 1;
+            width: 50%;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        .nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgba(36, 37, 38, 0.6);
+            user-select: none;
+            border-radius: 10px;
+        }
+
+        .nav li {
+            float: left;
+        }
+
+        .nav li a{
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 20px 26px;
+            text-decoration: none;
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .nav li a:hover{
+            background-color:#a3b8cc;;
+        }
+        .inner ul {
+        list-style-type: disc;
+        color: #fec;
+        } 
+        h1{
+            color: #fff;
+        }
+        h3{
+            color: #fec;
+        }
+        .inner li{
+            color:#fec;
+            font-size: large;
+        }
+        .inner{
+            width:500px;
+            height:700px;
+            padding:20px;
+            background-color: rgba(128, 128, 128, 0.5);
+            border-radius: 20px;
+        }
+        .pic{
+            width: auto;
+            height:40vh;
+        }
+        .outer {
+            display: flex;
+        }
+        .right {
+            flex: 1;
+        }
+        .T{
+            position: absolute;
+            bottom: -60px;
+            left: 190px;
+            transform: scale(0.7);
+        }
+        image{
+            user-select: none;
+        }
+        .Btd{
+            position: absolute;
+            top: 105%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .Btd1{
+            position: absolute;
+            text-align: center;
+            top: 47%;
+            left: 50%;
+            width: 227px;
+            transform: translate(-50%, -50%);
+            font-size: x-large;
+            font-weight: 700;
+            color: #9cf;
+            background-color:rgba(0,51,102,.9);
+            user-select: none;
+        }
+        .Btd1:hover{
+            color: #fff;
+            background-color:rgba(0, 86, 172, 0.9);;
+            cursor:pointer;
+        }
+        a{
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="../index.html">标题首页</a></li>
+        <li><a href="./home.html">目录</a></li>
+        <li><a href="./zerg.html">虫族</a></li>
+        <li><a href="./protoss.html">星灵</a></li>
+        <li><a href="./mixture.html">混合体</a></li>
+    </ul>
+<div class="outer"> 
+    <div class="container">
+        <div class="inner">
+        <h1>足智多谋的人类，拥有多元的科技与风格。</h1>
+        <h3>人类是后来才来到克普鲁星区的种族，他们是数个世纪前
+            从地球出发的殖民远征队的后裔。人类没有神族的高科技
+            ，也没有虫族的生物力量，他们依赖坚韧、多元的单位在
+            战场上赢得胜利。</h3>
+        <h3>专属特色</h3>
+        <ul>
+            <li>可升空的建筑</li>
+            <li>如维京战机和战狼的变形单位</li>
+            <li>许多可行的战略，包括步兵和机械化部队</li>
+        </ul>
+        <img class="T" src="../images/T.png" alt="">
+        </div>
+    </div>
+    <div class="right">
+        <div style="height:10vh;"></div>
+       <img class="pic" src="../images/maring.png" alt="">
+       <img class="pic" src="../images/battle.png" alt="">
+       <img class="pic" src="../images/rabber.png" alt="">
+       <img class="pic" src="../images/tank.png" alt="">
+    </div>
+</div>
+<div class="Btd">
+    <img src="../images/return.png" alt=""> 
+    <a href="./home.html" class="Btd1">返回目录</a>
+</div>
+  </body>
+</html>

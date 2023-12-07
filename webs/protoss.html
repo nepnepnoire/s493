@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>星灵</title>
+    <style>
+        body{
+           background-image: url(../images/bg3.jpg);
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-position: center;
+       }
+       .container {
+           display: flex;
+           flex: 1;
+           width: 50%;
+           height: 100vh;
+           align-items: center;
+           justify-content: center;
+       }
+       .inner ul {
+       list-style-type: disc;
+       color: #fec;
+       } 
+       h1{
+           color: #fff;
+       }
+       h3{
+           color: #fec;
+       }
+       .inner li{
+           color:#fec;
+           font-size: large;
+       }
+       .inner{
+           width:500px;
+           height:700px;
+           padding:20px;
+           background-color: rgba(128, 128, 128, 0.5);
+           border-radius: 20px;
+       }
+       .pic{
+           width: auto;
+           height:40vh;
+       }
+       .outer {
+           display: flex;
+       }
+       .right {
+           flex: 1;
+       }
+       .T{
+           position: absolute;
+           left: 230px;
+           bottom: -20px;
+           transform: scale(0.8);
+       }
+       image{
+            user-select: none;
+        }
+        .nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgba(36, 37, 38, 0.6);
+            user-select: none;
+            border-radius: 10px;
+        }
+        .nav li {
+            float: left;
+        }
+
+        .nav li a{
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 20px 26px;
+            text-decoration: none;
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .nav li a:hover{
+            background-color:#a3b8cc;;
+        }
+        .Btd{
+            position: absolute;
+            top: 105%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .Btd1{
+            position: absolute;
+            text-align: center;
+            top: 47%;
+            left: 50%;
+            width: 227px;
+            transform: translate(-50%, -50%);
+            font-size: x-large;
+            font-weight: 700;
+            color: #9cf;
+            background-color:rgba(0,51,102,.9);
+            user-select: none;
+        }
+        .Btd1:hover{
+            color: #fff;
+            background-color:rgba(0, 86, 172, 0.9);;
+            cursor:pointer;
+        }
+        a{
+            text-decoration:none;
+        }
+   </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="../index.html">标题首页</a></li>
+        <li><a href="./home.html">目录</a></li>
+        <li><a href="./terran.html">人类</a></li>
+        <li><a href="./zerg.html">虫族</a></li>
+        <li><a href="./mixture.html">混合体</a></li>
+    </ul>
+<div class="outer"> 
+    <div class="container">
+        <div class="inner">
+        <h1>古老而高贵的战士，拥有黄金舰队与先进的灵能科技</h1>
+        <h3>数千年来，古老而神秘的神族在银河系中占有举足轻
+            重的地位。神族战士具有无与伦比的技巧与胆识，高
+            科技与强大的幽能更是强化了他们既有的能力。</h3>
+        <h3>专属特色</h3>
+        <ul>
+            <li>单位身上的护盾会随着时间充能。</li>
+            <li>如巨像与航空母舰之类的强大单位。</li>
+            <li>使用空间相位折跃技术来传送单位。</li>
+        </ul>
+        <img class="T" src="../images/P.png" alt="">
+    </div>
+</div>
+<div class="right">
+    <div style="height:10vh;"></div>
+   <img class="pic" src="../images/hang.png" alt="">
+   <img class="pic" src="../images/za.png" alt="">
+   <img class="pic" src="../images/zlo.png" alt="">
+   <img class="pic" src="../images/mu.png" alt="">
+</div>
+</div>
+<div class="Btd">
+    <img src="../images/return.png" alt=""> 
+    <a href="./home.html" class="Btd1">返回目录</a>
+</div>
+</body>
+</html>

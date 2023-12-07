@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>混合体</title>
+    <style>
+        body{
+            background-image: url(../images/bg3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .container {
+            display: flex;
+            flex: 1;
+            width: 50%;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        .inner ul {
+        list-style-type: disc;
+        color: #fec;
+        } 
+        h1{
+            color: #fff;
+        }
+        h3{
+            color: #fec;
+        }
+        .inner li{
+            color:#fec;
+            font-size: large;
+        }
+        .inner{
+            width:500px;
+            height:700px;
+            padding:20px;
+            background-color: rgba(128, 128, 128, 0.5);
+            border-radius: 20px;
+        }
+        .pic{
+            width: auto;
+            height:40vh;
+        }
+        .outer {
+            display: flex;
+        }
+        .right {
+            flex: 1;
+        }
+        .T{
+            position: absolute;
+            bottom: 30px;
+            left: 270px;
+            transform: scale(1.2);
+        }
+        image{
+            user-select: none;
+        }
+        .nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgba(36, 37, 38, 0.6);
+            user-select: none;
+            border-radius: 10px;
+        }
+        .nav li {
+            float: left;
+        }
+
+        .nav li a{
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 20px 26px;
+            text-decoration: none;
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .nav li a:hover{
+            background-color:#a3b8cc;;
+        }
+        .Btd{
+            position: absolute;
+            top: 105%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .Btd1{
+            position: absolute;
+            text-align: center;
+            top: 47%;
+            left: 50%;
+            width: 227px;
+            transform: translate(-50%, -50%);
+            font-size: x-large;
+            font-weight: 700;
+            color: #9cf;
+            background-color:rgba(0,51,102,.9);
+            user-select: none;
+        }
+        .Btd1:hover{
+            color: #fff;
+            background-color:rgba(0, 86, 172, 0.9);;
+            cursor:pointer;
+        }
+        a{
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="../index.html">标题首页</a></li>
+        <li><a href="./home.html">目录</a></li>
+        <li><a href="./terran.html">人类</a></li>
+        <li><a href="./zerg.html">虫族</a></li>
+        <li><a href="./protoss.html">星灵</a></li>
+    </ul>
+<div class="outer"> 
+    <div class="container">
+        <div class="inner">
+        <h1>强大而神秘的混合体，操控萨尔纳加之神力</h1>
+        <h3>混合体是萨尔纳加的倒影，近似于萨尔纳加，作为兵器被制造，同时拥有星灵和异虫的力量。它们由萨尔纳加的技术制造的，并且听从于一个堕落的萨尔纳加——埃蒙。</h3>
+        <h3>专属特色</h3>
+        <ul>
+            <li>可以召唤异常强大的单位</li>
+            <li>战斗时吸取敌人的生命和灵能</li>
+            <li>使用终极萨尔纳加科技</li>
+        </ul>
+        <img class="T" src="../images/mix.png" alt="">
+        </div>
+    </div>
+    <div class="right">
+        <div style="height:10vh;"></div>
+       <img class="pic" src="../images/green.png" alt="">
+       <img class="pic" src="../images/red.png" alt="">
+       <img class="pic" src="../images/normal.png" alt="">
+       <img class="pic" src="../images/jin.png" alt="">
+    </div>
+</div>
+<div class="Btd">
+    <img src="../images/return.png" alt=""> 
+    <a href="./home.html" class="Btd1">返回目录</a>
+</div>
+  </body>
+</html>

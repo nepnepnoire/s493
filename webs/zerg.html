@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>虫族</title>
+    <style>
+        body{
+            background-image: url(../images/bg2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgba(36, 37, 38, 0.6);
+            user-select: none;
+            border-radius: 10px;
+        }
+        .nav li {
+            float: left;
+        }
+
+        .nav li a{
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 20px 26px;
+            text-decoration: none;
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .nav li a:hover{
+            background-color:#a3b8cc;;
+        }
+        .container {
+            display: flex;
+            flex: 1;
+            width: 50%;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        .inner ul {
+        list-style-type: disc;
+        color: #fec;
+        } 
+        h1{
+            color: #fff;
+        }
+        h3{
+            color: #fec;
+        }
+        .inner li{
+            color:#fec;
+            font-size: large;
+        }
+        .inner{
+            width:500px;
+            height:700px;
+            padding:20px;
+            background-color: rgba(128, 128, 128, 0.5);
+            border-radius: 20px;
+        }
+        .pic{
+            width: auto;
+            height:40vh;
+        }
+        .outer {
+            display: flex;
+        }
+        .right {
+            flex: 1;
+        }
+        .T{
+            position: absolute;
+            bottom: 40px;
+            left: 270px;
+            transform: scale(1);
+        }
+        image{
+            user-select: none;
+        }
+        .Btd{
+            position: absolute;
+            top: 105%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .Btd1{
+            position: absolute;
+            text-align: center;
+            top: 47%;
+            left: 50%;
+            width: 227px;
+            transform: translate(-50%, -50%);
+            font-size: x-large;
+            font-weight: 700;
+            color: #9cf;
+            background-color:rgba(0,51,102,.9);
+            user-select: none;
+        }
+        .Btd1:hover{
+            color: #fff;
+            background-color:rgba(0, 86, 172, 0.9);;
+            cursor:pointer;
+        }
+        a{
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="../index.html">标题首页</a></li>
+        <li><a href="./home.html">目录</a></li>
+        <li><a href="./terran.html">人类</a></li>
+        <li><a href="./protoss.html">星灵</a></li>
+        <li><a href="./mixture.html">混合体</a></li>
+    </ul>
+<div class="outer"> 
+    <div class="container">
+        <div class="inner">
+        <h1>残酷无情的凶猛虫族，等着吞噬世界</h1>
+        <h3>狡猾的刀锋女皇率领外星虫族，计划在银河
+            系大肆屠杀，消除一切阻力。虫族不依靠科
+            技来制造武器、护甲或星际战舰，而是利用生
+            物的适应力和有计划的突变来实现目标。</h3>
+        <h3>专属特色</h3>
+        <ul>
+            <li>可以进行潜地的单位</li>
+            <li>类似于异化虫和飞螳等快速移动的虫群。</li>
+            <li>菌毯是可以在虫族建筑附近蔓延的有机生物物质。</li>
+        </ul>
+        <img class="T" src="../images/Z.png" alt="">
+        </div>
+    </div>
+    <div class="right">
+        <div style="height:10vh;"></div>
+       <img class="pic" src="../images/snake.png" alt="">
+       <img class="pic" src="../images/dragon.png" alt="">
+       <img class="pic" src="../images/queen.png" alt="">
+       <img class="pic" src="../images/suzhu.png" alt="">
+    </div>
+</div>
+<div class="Btd">
+    <img src="../images/return.png" alt=""> 
+    <a href="./home.html" class="Btd1">返回目录</a>
+</div>
+  </body>
+</html>
